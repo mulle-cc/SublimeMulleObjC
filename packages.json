@@ -1,0 +1,26 @@
+{
+	"schema_version": "1.2",
+	"packages": [
+		{
+			"name": "MulleObjC",
+			"description": "Select and copy Objective-C method selectors",
+			"author": "Nat!",
+			"homepage": "https://github.com/mulle-cc/SublimeMulleObjC",
+         "labels": ["objective-c", "objc", "mulke-objc"],
+         "releases": [
+            {
+               "sublime_text": "*",
+               "details": "https://github.com/mulle-cc/SublimeMulleObjC/tags"
+            }
+         ],       
+			"platforms": {
+				"*": [
+					{
+						"version": "0.0.1",
+						"url": "https://nodeload.github.com/mulle-cc/SublimeMulleObjC/zipball/0.0.1"
+					}
+				]
+			}
+		}
+	]
+}
