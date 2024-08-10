@@ -1,6 +1,6 @@
 # SublimeMulleObjC
 
-Plugin for Sublime Text to support Objective-C and specifically [mulle-objc](//mulle-objc.github.io/).
+#### 🍋 Plugin for Sublime Text to support Objective-C and specifically [mulle-objc](//mulle-objc.github.io/).
 
 Currently this extension highlights Objective-C selectors, and provides a
 shortcut to copy the selection into a string, perfect for use in `@selector()`.
