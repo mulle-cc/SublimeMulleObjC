@@ -1,7 +1,10 @@
 # SublimeMulleObjC
 
-This extension highlights Objective-C selectors, and provides a shortcut
-to copy the selection into a string, perfect for use in `@selector()`.
+Plugin for Sublime Text to support Objective-C and specifically [mulle-objc](//mulle-objc.github.io/).
+
+Currently this extension highlights Objective-C selectors, and provides a
+shortcut to copy the selection into a string, perfect for use in `@selector()`.
+Might do more in the future.
 
 Assume you have this in your Sublime Text buffer:
 
@@ -9,8 +12,11 @@ Assume you have this in your Sublime Text buffer:
 - (void) doWithBar:(int) bar andBaz:(int) baz;
 ```
 
-click on `doWithBar:` or `andBaz:`, then press [SHIFT]-[ALT]-[C] and now you have the string "doWithBar:andBaz:" in your paste buffer
+click on `doWithBar:` or `andBaz:`, then press [SHIFT]-[ALT]-[C] and now you
+have the string "doWithBar:andBaz:" in your paste buffer
 
+Add these definitions to your Sublime Text bindings with the menu
+entries "Preferences/Keybindings" and "Preferences/Mouse Bindings":
 
 ## .sublime-mousemap
 
