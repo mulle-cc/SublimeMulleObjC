@@ -46,3 +46,7 @@ Optionally enable highlighting with the [SHIFT]-[ALT]-[MOUSE-LEFT] and "Preferen
 
 This will clobber one of the predefined mouse actions though.
 
+## Install
+
+In Sublime Text "Tools/Command Palette..." execute "Add Repository". Now enter `https://github.com/mulle-cc/SublimeMulleObjC.git`. Finally execute "Install Package" and choose "SublimeMulleObjC". 
+
