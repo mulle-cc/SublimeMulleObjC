@@ -65,6 +65,8 @@ class ObjectiveCSelectorParser:
                 continue
 
             if char == ':':
+                if self.stack:
+                   continue
                 return i
 
             if char in '({[<':
@@ -107,6 +109,8 @@ class ObjectiveCSelectorParser:
                 continue
 
             if char == ':':
+                if self.stack:
+                   continue
                 return i
 
             if char in ')]]>':

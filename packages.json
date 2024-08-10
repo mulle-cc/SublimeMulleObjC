@@ -3,7 +3,7 @@
 	"packages": [
 		{
 			"name": "MulleObjC",
-			"description": "Select and copy Objective-C method selectors",
+			"description": "🍋 Plugin for Sublime Text to support Objective-C and specifically mulle-objc",
 			"author": "Nat!",
 			"homepage": "https://github.com/mulle-cc/SublimeMulleObjC",
          "labels": ["objective-c", "objc", "mulke-objc"],
@@ -16,8 +16,8 @@
 			"platforms": {
 				"*": [
 					{
-						"version": "1.0.0",
-						"url": "https://codeload.github.com/mulle-cc/SublimeMulleObjC/zip/refs/tags/0.0.1.zip"
+						"version": "0.0.2",
+						"url": "https://codeload.github.com/mulle-cc/SublimeMulleObjC/zip/refs/tags/0.0.2.zip"
                }
             ]
 			}
